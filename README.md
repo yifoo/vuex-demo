@@ -12,9 +12,9 @@
 
 ```JavaScript
 ├── App.vue
-├── main.js									// 入口文件
+├── main.js                 // 入口文件
 ├── api
-│   └── shop.js							// Mock产品数据
+│   └── shop.js             // Mock产品数据
 │── store
 │   ├── modules
 │   │   ├── cart.js					// 购物车状态模块
