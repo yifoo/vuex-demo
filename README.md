@@ -35,9 +35,13 @@
 ②状态管理`store.js`：引入购物车和产品状态模块;
 
 > 子模块中分别定义`state、getters、mutations、actions`；
+>
 > `state`存放原始数据
+>
 > `getters`提供实时数据
+>
 > `mutations`提供处理数据方法和业务逻辑
+>
 > `actions`是commit执行mutation方法，修改state变量值
 
 ③组件`components`：存放视图，渲染数据
