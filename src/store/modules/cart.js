@@ -19,6 +19,7 @@ const getters = {
 }
 const mutations = {
   pushProductToCart (state, {id, quantity}) {
+    if (quantity === 0) return
     for (var index in state.added) {
       if (state.added[index].id === id) {
         quantity += state.added[index].quantity
