@@ -17,15 +17,15 @@
 │   └── shop.js             // Mock产品数据
 │── store
 │   ├── modules
-│   │   ├── cart.js					// 购物车状态模块
-│   │   └── products.js			// 产品状态模块
-│   └── store.js						// 状态管理器
+│   │   ├── cart.js         // 购物车状态模块
+│   │   └── products.js     // 产品状态模块
+│   └── store.js            // 状态管理器
 ├── components
-│   ├── Products.vue 				// 产品视图
-│   ├── Shop.vue	 					// 购物产品视图
-│   └── ShoppingCart.vue		// 购物车视图
+│   ├── Products.vue        // 产品视图
+│   ├── Shop.vue            // 购物产品视图
+│   └── ShoppingCart.vue    // 购物车视图
 └── router
-    └── index.js						// 路由控制器
+    └── index.js            // 路由控制器
 ```
 
 #### 2.说明 
