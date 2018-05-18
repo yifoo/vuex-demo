@@ -2,8 +2,8 @@
 
 ### 一、安装步骤
 
-> 1. 克隆代码: git clone 
-> 2. 安装依赖: npm i
+> 1. 克隆代码: git clone git@github.com:yifoo/vuex-demo.git
+> 2. 安装依赖: npm install
 > 3. 运行: npm run dev
 
 ### 二、 案例说明
@@ -12,20 +12,20 @@
 
 ```JavaScript
 ├── App.vue
-├── main.js					// 入口文件
+├── main.js									// 入口文件
 ├── api
-│   └── shop.js				// Mock产品数据
+│   └── shop.js							// Mock产品数据
 │── store
 │   ├── modules
-│   │   ├── cart.js			// 购物车状态模块
-│   │   └── products.js		// 产品状态模块
-│   └── store.js			// 状态管理器
+│   │   ├── cart.js					// 购物车状态模块
+│   │   └── products.js			// 产品状态模块
+│   └── store.js						// 状态管理器
 ├── components
-│   ├── Products.vue 		// 产品视图
-│   ├── Shop.vue	 		// 购物产品视图
-│   └── ShoppingCart.vue	// 购物车视图
+│   ├── Products.vue 				// 产品视图
+│   ├── Shop.vue	 					// 购物产品视图
+│   └── ShoppingCart.vue		// 购物车视图
 └── router
-    └── index.js			// 路由控制器
+    └── index.js						// 路由控制器
 ```
 
 #### 2.说明 
